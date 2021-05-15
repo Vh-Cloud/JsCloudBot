@@ -46,23 +46,29 @@ client.on("message", async message => {
 
 client.on("message", async message => {
 
-   //blacklist
-   const args = message.content.trim().split(/ +/g);
-   const blacklist = require("./list/blacklist.json")
 
-      console.log(args[0])
+  /*BLACKLIST*/
+  const args = message.content.trim().split(/ +/g);
+  const blacklist = require("./list/blacklist.json")
 
-      for(let i = 1;i <= 18;i++){
-        const li = "l" + i
+  for(let i = 1;i <= blacklist.account;i++){
+        const li = "l" + i 
         const res = blacklist[li]
 
-        console.log(args[0])
-
-        if(args[0] == res){
+    if(message.content.toUpperCase().search(res) != -1){
           console.log('Mensagem inapropriada!')
 
-          return message.reply(`Você usou uma palavra inapropriada para nosso vocabulario`)
-        }}});
+      message.delete().catch(O_o => {});
+      return message.reply(`Você usou uma palavra inapropriada para nosso vocabulario`)
+  }
+
+  /*ANTCAPS*/
+  if(message.content == message.content.toUpperCase()){
+    message.delete().catch(O_o => {})
+    return message.reply(`Nos não gostamos de capslock dentro de nossos servidores`)
+  }
+
+}}); 
 
 //INDEX
 /*client.on("guildMemberAdd", async (member) => { //wellcome da guild
