@@ -3,12 +3,22 @@ const client = new Discord.Client();
 const config = require("./config.json"); 
 const t = require("./env.json")
 
+const low = require('lowdb')
+const FileSync = require('lowdb/adapters/FileSync')
+ 
+const adapter = new FileSync('./list/banedlist.json')
+const banedlist = low(adapter)
+
+console.log(banedlist.get("Baneds").find({id: "668686483858784272"}).values)
 
 client.on('message', message => {
     if (message.author.bot) return;
     if (message.channel.type == 'dm') return;
     if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()))
         return;
+
+    if (banedlist.get("Baneds").find({id: message.author.id}).value != undefined) return message.reply(`Você esta banido do bot e por isso nao pode mais enviar nenhum comando`)
+
     if (
         message.content.startsWith(`<@!${client.user.id}>`) ||
         message.content.startsWith(`<@${client.user.id}>`)
@@ -46,7 +56,6 @@ client.on("message", async message => {
 
 client.on("message", async message => {
 
-
   /*BLACKLIST*/
   const args = message.content.trim().split(/ +/g);
   const blacklist = require("./list/blacklist.json")
@@ -63,7 +72,7 @@ client.on("message", async message => {
   }
 
   /*ANTCAPS*/
-  if(message.content == message.content.toUpperCase()){
+  if(message.content == message.content.toUpperCase() && message.content.length != 0 && message.content.length != 22){
     message.delete().catch(O_o => {})
     return message.reply(`Nos não gostamos de capslock dentro de nossos servidores`)
   }
