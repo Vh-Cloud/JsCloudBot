@@ -24,6 +24,21 @@ if(user != undefined){
 })
 
 client.on('message', message => {
+    const args = message.content
+        .trim()
+        .slice(config.prefix.length)
+        .split(/ +/g);
+    const command = args.shift().toLowerCase();
+
+    /*RUN*/
+    const antcaps = require(`./system/antcaps.js`);
+    antcaps.run(client, message, args);
+
+    const blacklist = require(`./system/antcaps.js`);
+    blacklist.run(client, message, args);
+
+    /*------------------------------------------------------*/
+
     if (message.author.bot) return;
     if (message.channel.type == 'dm') return;
     if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()))
@@ -39,12 +54,6 @@ client.on('message', message => {
         message.content.startsWith(`<@${client.user.id}>`)
     )
         return;
-
-    const args = message.content
-        .trim()
-        .slice(config.prefix.length)
-        .split(/ +/g);
-    const command = args.shift().toLowerCase();
 
     try {
         const commandFile = require(`./commands/${command}.js`);
@@ -68,31 +77,6 @@ client.on("message", async message => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 
 });
-
-client.on("message", async message => {
-
-  /*BLACKLIST*/
-  const args = message.content.trim().split(/ +/g);
-  const blacklist = require("./list/blacklist.json")
-
-  for(let i = 1;i <= blacklist.account;i++){
-        const li = "l" + i 
-        const res = blacklist[li]
-
-    if(message.content.toUpperCase().search(res) != -1){
-          console.log('Mensagem inapropriada!')
-
-      message.delete().catch(O_o => {});
-      return message.reply(`Você usou uma palavra inapropriada para nosso vocabulario`)
-  }
-
-  /*ANTCAPS*/
-  if(message.content == message.content.toUpperCase() && message.content.length != 0 && message.content.length != 22){
-    message.delete().catch(O_o => {})
-    return message.reply(`Nos não gostamos de capslock dentro de nossos servidores`)
-  }
-
-}}); 
 
 //INDEX
 /*client.on("guildMemberAdd", async (member) => { //wellcome da guild
