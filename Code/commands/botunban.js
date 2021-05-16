@@ -6,6 +6,13 @@ const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('./list/banedlist.json')
 const banedlist = low(adapter)
 
+const config = require("../config.json")
+const { prefix } = require("../config.json")
+
+const command = "botunban"
+
+/*----------------------------------------------------*/
+
 module.exports.run = async (client, message, args) => {
   let user = message.mentions.users.first() || client.users.cache.get(args[0]);
   let motivo = args.join(' ')
@@ -17,4 +24,6 @@ module.exports.run = async (client, message, args) => {
         banedlist.get('Baneds')
         .remove({id: user.id}).write()
       message.reply(`o usario ${user} foi desbanido e agora pode usar os comandos do bot normalmente\n **Motivo:** ${motivo}`)
+
+  console.log(`O usuario ${message.author.tag} usou o comando ${command}`)
 };

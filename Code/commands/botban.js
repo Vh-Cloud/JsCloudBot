@@ -1,10 +1,17 @@
-const Discord = require('discord.js');
+Discord = require("discord.js");
+
+const config = require("../config.json")
+const { prefix } = require("../config.json")
+
+const command = "botban"
 
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
  
 const adapter = new FileSync('./list/banedlist.json')
 const banedlist = low(adapter)
+
+/*----------------------------------------------------*/
 
 module.exports.run = async (client, message, args) => {
   let user = message.mentions.users.first() || client.users.cache.get(args[0]);
@@ -21,4 +28,6 @@ module.exports.run = async (client, message, args) => {
           ban: "true"
         }).write()
       message.reply(`o usario ${user} foi banido e não pode mais usar nenhum comando deste bot\n **Motivo:** ${motivo}`)
+
+  console.log(`O usuario ${message.author.tag} usou o comando ${command}`)
 };
