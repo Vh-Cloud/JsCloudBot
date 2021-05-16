@@ -34,7 +34,7 @@ client.on('message', message => {
     const antcaps = require(`./system/antcaps.js`);
     antcaps.run(client, message, args);
 
-    const blacklist = require(`./system/antcaps.js`);
+    const blacklist = require(`./system/blacklist.js`);
     blacklist.run(client, message, args);
 
     /*------------------------------------------------------*/

@@ -1,4 +1,4 @@
-module.exports.run = async (client, message, args) => {
+module.exports.run = async (client, message) => {
     const args = message.content.trim().split(/ +/g);
     const blacklist = require("../list/blacklist.json")
 
