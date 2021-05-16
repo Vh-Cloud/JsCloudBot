@@ -81,7 +81,7 @@
         `)
       .addField(`Lista:`, `Home, Planos, Apis, Forms, Login, Desenvolvedores.`)
       .setThumbnail('https://media.discordapp.net/attachments/825951876725866517/843280613040979978/Logo_preta_1.jpg?width=498&height=498')
-      .setImage("https://media.discordapp.net/attachments/825951876725866517/843314592368427059/devs.png?width=314&height=498")
+      .setImage("https://media.discordapp.net/attachments/825951876725866517/843321481000648725/cubos.png")
       .setFooter('Codigo Oficial de VhCompany#8710/VhCloud', message.author.displayAvatarURL({dynamic: true}))
       .setTimestamp();
 
