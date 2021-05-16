@@ -5,11 +5,23 @@ const t = require("./env.json")
 
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
- 
 const adapter = new FileSync('./list/banedlist.json')
 const banedlist = low(adapter)
 
-console.log(banedlist.get("Baneds").find({id: "668686483858784272"}).values)
+/*------------------------------------------------------*/
+
+let user = "ainda nao passado"
+
+/*BANED VERIFY 1*/
+client.on('message', message => {
+
+user = banedlist.get("Baneds").find({id: message.author.id}).value()
+
+if(user != undefined){
+  user = "X"
+}else{}
+
+})
 
 client.on('message', message => {
     if (message.author.bot) return;
@@ -17,7 +29,10 @@ client.on('message', message => {
     if (!message.content.toLowerCase().startsWith(config.prefix.toLowerCase()))
         return;
 
-    if (banedlist.get("Baneds").find({id: message.author.id}).value != undefined) return message.reply(`Você esta banido do bot e por isso nao pode mais enviar nenhum comando`)
+    /*BANED VERIFY 2*/
+    if (user == "X"){
+      return message.reply(`Você esta banido do bot e por isso nao pode mais enviar nenhum comando`)
+    }else{}
 
     if (
         message.content.startsWith(`<@!${client.user.id}>`) ||
