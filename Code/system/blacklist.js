@@ -1,4 +1,6 @@
 module.exports.run = async (client, message) => {
+    if (message.author.id == 842899922160058388) return;
+
     const args = message.content.trim().split(/ +/g);
     const blacklist = require("../list/blacklist.json")
 
