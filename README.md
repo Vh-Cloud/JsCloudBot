@@ -67,3 +67,5 @@ module.exports.run = async (client, message) => {
 ```
 
 # Estatisticas:
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vh-Cloud&langs_count=8)](https://github.com/Vh-Cloud/JsCloudBot/github-readme-stats)
