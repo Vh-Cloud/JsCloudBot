@@ -3,7 +3,7 @@ Discord = require("discord.js");
 const config = require("../config.json")
 const { prefix } = require("../config.json")
 
-const command = "clear"
+const command = "botinfo"
 
 /*----------------------------------------------------*/
 
@@ -61,5 +61,6 @@ module.exports.run = async (client, message, args) => {
       .setFooter('Codigo Oficial de VhCompany#8710/VhCloud')
       .setTimestamp();
 
-  message.channel.send(HelpEmbed)
+  message.channel.send(Embed)
+  console.log(`O usuario ${message.author.tag} usou o comando ${command}`)
 };
