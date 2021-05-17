@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
   let minutes = Math.floor(totalSeconds / 60);
   let seconds = totalSeconds % 60;
 
-  const Embed = new Discord.MessageEmbed()
+  /*const Embed = new Discord.MessageEmbed()
     .setColor("#6272a4")
     .setTitle(`Botinfo`)
     .setDescription(`
@@ -49,6 +49,47 @@ module.exports.run = async (client, message, args) => {
       **<:bot:814883289651085344> Comandos:** ${c}7${c}
 
       **<:linguaguem:812125359704899596> Ver todos os comandos:** ${c}${prefix}help${c} 
+
+      **⚙️ Ultima atualização:** a ${c}${hours.toFixed()}${c} horas ${c}${minutes.toFixed()}${c} minutos ${c}${seconds.toFixed()}${c} segundos. 
+
+      ${client.users.cache.size} Usuarios estão me usando
+      Eu estou em ${client.guilds.cache.size} servers
+      Eu estou cuidadando de ${client.channels.cache.size} canais
+      `)
+      .setThumbnail('https://media.discordapp.net/attachments/825951876725866517/843280613040979978/Logo_preta_1.jpg?width=498&height=498')
+      .setFooter('Codigo Oficial de VhCompany#8710/VhCloud')
+      .setTimestamp();
+    */
+
+  const Embed = new Discord.MessageEmbed()
+    .setColor("#6272a4")
+    .setTitle(`Botinfo`)
+    .setDescription(`
+      **Infornações detalhadas**
+
+      **Desenvolvedor:**  [VhCompany](https://github.com/VhCompany1)
+
+      **Empresa:** [VhCloud](https://github.com/vh-cloud)
+
+      **Meu prefixo:**  ${c}${prefix}${c} 
+
+      **Bot Version:**  ${c}${botversion}${c}
+
+      **Host:**  ${c}Repl.it${c}
+
+      **Data de verificação:** ${c}?${c}
+
+      **Data de criação:** ${c}15/05/2021${c}
+
+      **Linguagem:** ${c}JavaScript${c}
+
+      **Livraria:** ${c}Discord.js${c}
+
+      **DataBase:** ${c}LowDb${c}
+
+      **Comandos:** ${c}7${c}
+
+      **Ver todos os comandos:** ${c}${prefix}help${c} 
 
       **⚙️ Ultima atualização:** a ${c}${hours.toFixed()}${c} horas ${c}${minutes.toFixed()}${c} minutos ${c}${seconds.toFixed()}${c} segundos. 
 
