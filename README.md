@@ -7,6 +7,8 @@ Prefix do Bot: //
 
 Bot Version: 1.1.8
 
+Desenvolvedor Oficial: [VhCompany](https://github.com/VhCompany1)
+
 ### Lista de comandos:
 
 - link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).<br>
