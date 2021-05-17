@@ -56,8 +56,7 @@ module.exports.run = async (client, message, args) => {
       Eu estou em ${client.guilds.cache.size} servers
       Eu estou cuidadando de ${client.channels.cache.size} canais
       `)
-      .setImage(`https://www.seekpng.com/png/detail/978-9786743_anime-popular-girl-otaku-anime-mujer-kawaii.png`)
-      .setThumbnail('https://i.pinimg.com/originals/cc/de/aa/ccdeaa0aa1a833a352d5f5194181c95e.jpg')
+      .setThumbnail('https://media.discordapp.net/attachments/825951876725866517/843280613040979978/Logo_preta_1.jpg?width=498&height=498')
       .setFooter('Codigo Oficial de VhCompany#8710/VhCloud')
       .setTimestamp();
 
