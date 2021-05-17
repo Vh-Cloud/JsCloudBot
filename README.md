@@ -1,2 +1,2 @@
-# VhCloudBot
-Bot da VhCloud com codigos open source
+# JsCloudBot
+Bot da JsCloud com codigos open source
