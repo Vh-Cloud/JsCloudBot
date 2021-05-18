@@ -29,7 +29,7 @@ Para instalar as bibliotecas no node basta utilizar o comando npm install (nome 
 São nescesario por os seguintes creditos:
 
 - Desenvolvedor oficial [VhCompany](https://github.com/VhCompany1)
-- Empresa Oficial [VhCloud](https://github.com/Vh-Cloud)
+- Empresa oficial [VhCloud](https://github.com/Vh-Cloud)
 
 Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos?class=discord-bot)
 
