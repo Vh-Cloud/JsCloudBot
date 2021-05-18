@@ -1,6 +1,8 @@
 # JsCloudBot
 <img src="https://user-images.githubusercontent.com/79233369/118642524-dc6a9900-b7b1-11eb-974f-49902c0add53.png" width="100px">
 
+### Sobre:
+
 Discord-Bot feito com JavaScript para demonstração de serviços de bots da vhcloud 
 
 Discord-Bot em Python: [Link](https://github.com/Vh-Cloud/PyCloudBot)
@@ -31,7 +33,7 @@ São nescesario por os seguintes creditos:
 - Desenvolvedor oficial [VhCompany](https://github.com/VhCompany1)
 - Empresa oficial [VhCloud](https://github.com/Vh-Cloud)
 
-Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos?class=discord-bot)
+Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos/?class=discord-bot)
 
 ### Lista de comandos:
 
