@@ -5,7 +5,7 @@ Discord-Bot em Python: [Link](https://github.com/Vh-Cloud/PyCloudBot)
 
 Prefix do Bot: //
 
-Bot Version: 1.2.6
+Bot Version: 1.2.8
 
 Desenvolvedor Oficial: [VhCompany](https://github.com/VhCompany1)
 
