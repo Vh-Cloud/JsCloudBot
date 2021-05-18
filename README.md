@@ -15,7 +15,7 @@ Arquivo principal: [Index](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code
 
 ### Como usar:
 
-esse bot pode ser adicionado em qualquer servidor basta usar o [invite](https://discord.com/oauth2/authorize?client_id=842899922160058388&scope=bot&permissions=8). 
+Esse bot pode ser adicionado em qualquer servidor basta usar o [invite](https://discord.com/oauth2/authorize?client_id=842899922160058388&scope=bot&permissions=8). 
 
 Caso queria criar seu bot e usar esses codigos instale as bibliotecas seguintes:
 
