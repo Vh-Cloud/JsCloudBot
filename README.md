@@ -9,6 +9,8 @@ Bot Version: 1.2.5
 
 Desenvolvedor Oficial: [VhCompany](https://github.com/VhCompany1)
 
+Arquivo principal: [Index](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/index.js)
+
 ### Lista de comandos:
 
 - link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).<br>
