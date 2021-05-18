@@ -21,11 +21,11 @@ Arquivo principal: [Index](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code
 ![image](https://user-images.githubusercontent.com/79233369/118550302-e39e9200-b732-11eb-933a-229855642fb3.png)
 - clear([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/clear.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118550376-fa44e900-b732-11eb-9346-dec7a579ccb6.png)
-- botban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botban.js))<br>
+- botban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botban.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118613482-2d1fc900-b795-11eb-8587-53ea36f6ae3d.png)
-- botunban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botunban.js))<br>
+- botunban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botunban.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118613482-2d1fc900-b795-11eb-8587-53ea36f6ae3d.png)
-- botinfo([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botinfo.js))<br>
+- botinfo([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botinfo.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118613720-66583900-b795-11eb-90fb-bdfc0f4ff4da.png)
 
 
