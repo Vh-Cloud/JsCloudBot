@@ -15,6 +15,24 @@ Arquivo principal: [Index](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code
 
 ### Como usar:
 
+esse bot pode ser adicionado em qualquer servidor basta usar o [invite](https://discord.com/oauth2/authorize?client_id=842899922160058388&scope=bot&permissions=8). 
+
+Caso queria criar seu bot e usar esses codigos instale as bibliotecas seguintes:
+
+- [discord.js](https://discord.js.org/#/)
+- [discord-antiflood](https://www.npmjs.com/package/discord-antiflood)
+- [express](https://expressjs.com/pt-br/)
+- [lowdb](https://www.npmjs.com/package/lowdb)
+
+Para instalar as bibliotecas no node basta utilizar o comando npm install (nome da biblioteca)
+
+São nescesario por os seguintes creditos:
+
+- Desenvolvedor oficial [VhCompany](https://github.com/VhCompany1)
+- Empresa Oficial [VhCloud](https://github.com/Vh-Cloud)
+
+Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos?class=discord-bot)
+
 ### Lista de comandos:
 
 - link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).<br>
