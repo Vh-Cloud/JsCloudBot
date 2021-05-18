@@ -21,9 +21,11 @@ Arquivo principal: [Index](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code
 ![image](https://user-images.githubusercontent.com/79233369/118550302-e39e9200-b732-11eb-933a-229855642fb3.png)
 - clear([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/clear.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118550376-fa44e900-b732-11eb-9346-dec7a579ccb6.png)
-- botban
-- botunban
-- botinfo
+- botban([codigo]())
+
+- botunban([codigo]())
+
+- botinfo([codigo]()) 
 
 
 ### Sistemas:

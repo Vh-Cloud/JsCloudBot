@@ -9,7 +9,7 @@ const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('./list/banedlist.json')
 const banedlist = low(adapter)
 
-const antiFlood = require('./system/antflod.js');
+/*const antiFlood = require('./system/antflod.js');*/
 
 /*------------------------------------------------------*/
 
