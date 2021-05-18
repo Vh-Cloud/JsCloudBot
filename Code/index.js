@@ -1,3 +1,4 @@
+/*Index imports*/
 const Discord = require("discord.js"); 
 const client = new Discord.Client(); 
 const config = require("./config.json"); 
@@ -8,11 +9,13 @@ const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('./list/banedlist.json')
 const banedlist = low(adapter)
 
+const antiFlood = require('./system/antflod.js');
+
 /*------------------------------------------------------*/
 
+/*BANED VERIFY 1*/
 let user = "ainda nao passado"
 
-/*BANED VERIFY 1*/
 client.on('message', message => {
 
 user = banedlist.get("Baneds").find({id: message.author.id}).value()
@@ -20,6 +23,8 @@ user = banedlist.get("Baneds").find({id: message.author.id}).value()
 if(user != undefined){
   user = "X"
 }else{}
+
+/*------------------------------------------------------*/
 
 })
 
@@ -48,6 +53,8 @@ client.on('message', message => {
     if (user == "X"){
       return message.reply(`Você esta banido do bot e por isso nao pode mais enviar nenhum comando`)
     }else{}
+
+    /*------------------------------------------------------*/
 
     if (
         message.content.startsWith(`<@!${client.user.id}>`) ||

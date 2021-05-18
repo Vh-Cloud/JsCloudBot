@@ -13,9 +13,8 @@ module.exports.run = async (client, message, args) => {
     if(account >= length / 2){
         message.delete().catch(O_o => {})
         return message.reply(`Nos não gostamos de capslock dentro de nossos servidores`)
+        console.log(`Caps detected`)
     }
-
-    console.log(`Caps detected`)
 
     /*if(message.content == message.content.toUpperCase() && message.content.length != 0 && message.content.length != 22){
         simplecaps = true
