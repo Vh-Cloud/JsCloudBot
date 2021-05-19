@@ -37,23 +37,28 @@ Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos/?
 
 ### Lista de comandos:
 
-- link([codigo]).
-    - //link (pagina desejada)
-![image](https://user-images.githubusercontent.com/79233369/118549937-886c9f80-b732-11eb-8a41-941115bf8cfa.png)
-- ping([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/ping.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118550105-b5b94d80-b732-11eb-896f-5d0b95e0cf43.png)
+- link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).
+    - //link (pagina desejada).
+    - com este comando você pode pegar o link de qualquer pagina do site da vhcloud, caso queira ver a lista de paginas basta usar //link list.
+- ping([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/ping.js)).<
+    - //ping.
+    - com este comando você pode ver o tempo de resposta do bot e do servidor.
 - say([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/say.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118550302-e39e9200-b732-11eb-933a-229855642fb3.png)
+    - //say (msg).
+    - com este comando você pode fazer com que o bot envie qualquer mensagem dentro do canal que você esteja, para usalo é nescessario a permissão menage message.
 - clear([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/clear.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118550376-fa44e900-b732-11eb-9346-dec7a579ccb6.png)
+    - //clear (numero de 1 - 99).
+    - com este comando você pode apagar um numero desejado de mensagens do canal que você esteja.
 - botban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botban.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118613482-2d1fc900-b795-11eb-8587-53ea36f6ae3d.png)
+    - //botban (pessoa).
+    - com este comando você pode banir uma pessoa no bot fazendo com que ele não consiga mais usar comandos dele, para usalo é nescessario ser proprietario do bot.
 - botunban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botunban.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118613482-2d1fc900-b795-11eb-8587-53ea36f6ae3d.png)
+    - //botunban (pessoa).
+    - com este comando você pode desbaniruma pessoa no bot fazendo com que ele consiga usar comandos dele, para usalo é nescessario ser proprietario do bot.
 - botinfo([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botinfo.js)).<br>
-![image](https://user-images.githubusercontent.com/79233369/118613720-66583900-b795-11eb-90fb-bdfc0f4ff4da.png)
-
-
+    - //botinfo.
+    - com este comando você consegue ver informações basicas do bot.
+    
 ### Sistemas:
 
 - AntiCaps.
