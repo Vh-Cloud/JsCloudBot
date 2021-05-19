@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) => {
     }else{
         for(let c = 1;c <= length - 1;c++){
             if(message.content.length != 0 && message.content.search("<@") != 0){
-                if(message.content[c] == message.content[c].toUpperCase()&& message.content[c].toUpperCase() != "K"){
+                if(message.content[c] == message.content[c].toUpperCase()){
                     account++
                 }else{}    
             }

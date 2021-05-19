@@ -25,7 +25,7 @@ let antiFloodAjustes = {
         "MANAGE_MESSAGES", 
         "MANAGE_GUILD"
     ],
-    infracciones: [
+    infracciones: [ 
         {
             id: "WARN",
             mensajes: 6,

@@ -37,7 +37,8 @@ Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos/?
 
 ### Lista de comandos:
 
-- link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).<br>
+- link([codigo]).
+    - //link (pagina desejada)
 ![image](https://user-images.githubusercontent.com/79233369/118549937-886c9f80-b732-11eb-8a41-941115bf8cfa.png)
 - ping([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/ping.js)).<br>
 ![image](https://user-images.githubusercontent.com/79233369/118550105-b5b94d80-b732-11eb-896f-5d0b95e0cf43.png)
