@@ -10,12 +10,12 @@ Desenvolvedor Oficial: [VhCompany](https://github.com/VhCompany1)
 
 ### Como usar: 
 
-Essa api pode ser utilizada em qualquer bot des de que seja dado os creditos nescessarios:
+Essa api pode ser utilizada em qualquer bot des de que seja dado os creditos necessários:
 
 - Desenvolvedor oficial [VhCompany](https://github.com/VhCompany1)
 - Empresa oficial [VhCloud](https://github.com/Vh-Cloud)
 
-As bibliotecas que são nescessarias ser instaladas no node:
+As bibliotecas que são necessárias ser instaladas no node:
 
 - [discord.js](https://discord.js.org/#/)
 
