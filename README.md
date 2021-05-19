@@ -40,22 +40,22 @@ Compre um bot a seu gosto na VhCloud: [Em Breve](https://vhcloud.com.br/planos/?
 - link([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/link.js)).
     - //link (pagina desejada).
     - com este comando você pode pegar o link de qualquer pagina do site da vhcloud, caso queira ver a lista de paginas basta usar //link list.
-- ping([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/ping.js)).<
+- ping([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/ping.js)).
     - //ping.
     - com este comando você pode ver o tempo de resposta do bot e do servidor.
-- say([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/say.js)).<br>
+- say([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/say.js)).
     - //say (msg).
     - com este comando você pode fazer com que o bot envie qualquer mensagem dentro do canal que você esteja, para usalo é nescessario a permissão menage message.
-- clear([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/clear.js)).<br>
+- clear([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/clear.js)).
     - //clear (numero de 1 - 99).
     - com este comando você pode apagar um numero desejado de mensagens do canal que você esteja.
-- botban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botban.js)).<br>
+- botban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botban.js)).
     - //botban (pessoa).
     - com este comando você pode banir uma pessoa no bot fazendo com que ele não consiga mais usar comandos dele, para usalo é nescessario ser proprietario do bot.
-- botunban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botunban.js)).<br>
+- botunban([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botunban.js)).
     - //botunban (pessoa).
     - com este comando você pode desbaniruma pessoa no bot fazendo com que ele consiga usar comandos dele, para usalo é nescessario ser proprietario do bot.
-- botinfo([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botinfo.js)).<br>
+- botinfo([codigo](https://github.com/Vh-Cloud/JsCloudBot/blob/main/Code/commands/botinfo.js)).
     - //botinfo.
     - com este comando você consegue ver informações basicas do bot.
     
